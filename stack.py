@@ -8,6 +8,9 @@ class Stack:
     self.container.append(val)
   
   def pop(self):
+    if len(self.container)==0:
+      print("Stack is empty")
+      return
     return self.container.pop()
   
   def peek(self):

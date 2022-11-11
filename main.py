@@ -1,8 +1,9 @@
 # import linkedlist
 # import doublylinkedlist
 # import example
-import hashing
-import stack
+# import hashing
+# import stack
+import Queue
 
 print("Nothing in main")
 print ("Always executed")
